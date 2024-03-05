@@ -12,3 +12,20 @@ int findHighestNumber(List<int> nums) {
   }
   return highest;
 }
+
+void mapKeysValues(Map<dynamic, dynamic> map) {
+  if (map.isEmpty) {
+    print("The map is empty");
+    return;
+  }
+
+  print("Keys:");
+  map.keys.forEach((key) {
+    print(key);
+  });
+
+  print("Values:");
+  map.values.forEach((value) {
+    print(value);
+  });
+}
