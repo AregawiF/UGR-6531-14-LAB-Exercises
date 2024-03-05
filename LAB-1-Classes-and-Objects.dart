@@ -15,3 +15,14 @@ class Car {
     print("Vroom Vroom");
   }
 }
+
+class ElectricCar extends Car {
+  int batteryLife;
+
+  ElectricCar(String brand, String model, int year, this.batteryLife) : super(brand, model, year);
+
+  void displayElectricCarInfo() {
+    super.displayInfo();
+    print("Battery Life: $batteryLife kWh");
+  }
+}
