@@ -25,5 +25,22 @@ void main() {
     default:
       print("Invalid number");
   }
+  // Fibonacci Sequence
   
+  int limit = 10;
+  int first = 0;
+  int second = 1;
+
+  print("Fibonacci Sequence:");
+
+  for (int i = 0; i < limit; i++) {
+    if (i <= 1) {
+      print(i);
+    } 
+    else {
+      int curr = first + second;
+      print(curr);
+      first = second;
+      second = curr;
+    }
 }
