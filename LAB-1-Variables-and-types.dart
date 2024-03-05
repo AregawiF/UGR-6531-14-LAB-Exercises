@@ -5,4 +5,6 @@ void main() {
 
     print( a + b + c );
 
+    String newStr = "Dart practice";
+    print(newStr.length);
 }
