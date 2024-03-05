@@ -10,4 +10,8 @@ class Car {
     print("Model: $model");
     print("Year: $year");
   }
+
+  void makeSound() {
+    print("Vroom Vroom");
+  }
 }
