@@ -29,3 +29,13 @@ void mapKeysValues(Map<dynamic, dynamic> map) {
     print(value);
   });
 }
+
+List<T> removeDuplicates<T>(List<T> list) {
+  List<T> uniqueList = [];
+  for (var element in list) {
+    if (!uniqueList.contains(element)) {
+      uniqueList.add(element);
+    }
+  }
+  return uniqueList;
+}
