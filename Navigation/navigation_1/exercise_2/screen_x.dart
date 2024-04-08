@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigator_1_lab/exercise_2/screen_y.dart';
+import 'package:Navigation/navigation_1/exercise_2/screen_y.dart';
 
 
 class ScreenX extends StatelessWidget {
