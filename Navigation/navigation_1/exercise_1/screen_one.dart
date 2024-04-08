@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigator_1_lab/exercise_1/screen_two.dart';
+import 'package:Navigation/navigation_1/exercise_1/screen_two.dart';
 
 
 class ScreenOne extends StatelessWidget {
